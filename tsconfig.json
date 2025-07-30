@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es2020",
     "module": "commonjs",
-    "lib": ["dom","es2020"],        // أو ["es2020", "dom"] إذا تشتغل على المتصفح
+    "lib": ["dom","es2020"],        
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
