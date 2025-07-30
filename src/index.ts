@@ -120,7 +120,6 @@ async function test() {
   console.log("All Courses:", await courseRepo.findAll());
   console.log("All Bookings:", await bookingRepo.findAll());
 
-  // Example: filter bookings by date (works now!)
   const filteredBookings = await bookingRepo.findByFilter({ date: new Date("2025-07-01") });
   console.log("Bookings on 2025-07-01:", filteredBookings);
 }
